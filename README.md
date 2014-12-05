@@ -1,7 +1,7 @@
 BIO-Site
 ========
 
-This is a website built with <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>.
+This is a website built with <a href="http://getbootstrap.com" target="_blank">Bootstrap</a> for a school project on biology.
 
 Copyright and Licence
 =====================
