@@ -1,4 +1,4 @@
 BIO-Site
 ========
 
-Site for svhool project. 
+Site for school project. 
