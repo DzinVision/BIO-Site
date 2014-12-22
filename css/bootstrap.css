@@ -65,6 +65,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
+    color: #fff;
 }
 mark {
   color: #000;
@@ -906,7 +907,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #4CAF50;
 }
 input,
 button,
@@ -1218,8 +1219,14 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1.5px solid #81C784;
     background-color: #4CAF50;
+}
+.page-header > h1 {
+    color: #C8E6C9;   
+}
+.page-header > h1 > small{
+    color: #93CF96;   
 }
 ul,
 ol {
@@ -4365,11 +4372,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #4CAF50;
+  background-color: #81C784;
   border-radius: 4px;
 }
 .breadcrumb > li {
   display: inline-block;
+}
+.breadcrumb > li > a {
+    color: #2E7D32;
 }
 .breadcrumb > li + li:before {
   padding: 0 5px;
@@ -4377,7 +4387,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   content: "/\00a0";
 }
 .breadcrumb > .active {
-  color: #777;
+  color: #C8E6C9;
 }
 .pagination {
   display: inline-block;
