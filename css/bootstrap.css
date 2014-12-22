@@ -5,6 +5,7 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -14,6 +15,12 @@ html {
 body {
   margin: 0;
     background-color: #4CAF50;
+}
+::selection {
+    background: #388E3C;
+}
+::-moz-selection {
+    background: #388E3C;
 }
 article,
 aside,
@@ -3770,6 +3777,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-pills > li > a {
   border-radius: 4px;
+  color: #D8EED9;
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -3782,6 +3790,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-stacked > li {
   float: none;
+}
+.nav-pills > li > a:hover {
+    color: #2E7D32;
+    background-color: #81C784;
 }
 .nav-stacked > li + li {
   margin-top: 2px;
@@ -4622,7 +4634,7 @@ a.badge:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-}s
+}
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #337ab7;
@@ -6136,6 +6148,8 @@ button.close {
 }
 .affix {
   position: fixed;
+  top: 30px;
+  width: 0.1269%;
 }
 @-ms-viewport {
   width: device-width;
