@@ -4909,8 +4909,8 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #81C784;
+  border: 1px solid #43A047;
 }
 .list-group-item:first-child {
   border-top-left-radius: 4px;
@@ -4931,7 +4931,7 @@ a.list-group-item:hover,
 a.list-group-item:focus {
   color: #555;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #A5D6A7;
 }
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
@@ -4954,7 +4954,7 @@ a.list-group-item:focus {
 .list-group-item.active:hover,
 .list-group-item.active:focus {
   z-index: 2;
-  color: #fff;
+  color: #A5D6A7;
   background-color: #337ab7;
   border-color: #337ab7;
 }
