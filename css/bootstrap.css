@@ -6146,10 +6146,13 @@ button.close {
   display: none !important;
   visibility: hidden !important;
 }
+.affix-top {
+  width: 230px;
+}
 .affix {
   position: fixed;
   top: 30px;
-  width: 0.1269%;
+  width: 230px;
 }
 @-ms-viewport {
   width: device-width;
