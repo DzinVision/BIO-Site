@@ -918,7 +918,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #fff;
   text-decoration: none;
 }
 a:hover,
@@ -1088,6 +1088,7 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
+    color: #D8EED9;
 }
 h3,
 .h3 {
@@ -1107,6 +1108,10 @@ h6,
 }
 p {
   margin: 0 0 10px;
+    color: #A5D6A7;
+    
+    
+    font-size: 15px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1223,7 +1228,7 @@ a.bg-danger:hover {
     background-color: #4CAF50;
 }
 .page-header > h1 {
-    color: #C8E6C9;   
+    color: #D8EED9 ;   
 }
 .page-header > h1 > small{
     color: #93CF96;   
@@ -4617,7 +4622,7 @@ a.badge:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-}
+}s
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #337ab7;
@@ -4929,7 +4934,7 @@ a.list-group-item .list-group-item-heading {
 }
 a.list-group-item:hover,
 a.list-group-item:focus {
-  color: #555;
+  color: #fff;
   text-decoration: none;
   background-color: #A5D6A7;
 }
