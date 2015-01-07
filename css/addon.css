@@ -1,5 +1,13 @@
+body {
+    margin-bottom: 32px;
+}
+
 .uk-breadcrumb li a {
     color: #388e3c;
+}
+
+ul > .uk-active {
+    text-transform: uppercase;
 }
 
 .uk-breadcrumb li::before {
@@ -26,6 +34,15 @@ h2 {
     line-height: 24px;
     vertical-align: middle;
     margin-top: 30px;
+}
+
+h3 {
+    color: #2e7d32;
+    padding-left: 6px;
+    border-left: 3px solid #A5D6A7;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-top: 24px;
 }
 
 .uk-nav-side li a {
