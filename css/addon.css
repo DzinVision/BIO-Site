@@ -59,3 +59,13 @@ h3 {
 .uk-article-divider {
     border-color: #4caf50;
 }
+
+.overlay-caption {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
