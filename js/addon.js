@@ -7,4 +7,8 @@ $(document).ready(function() {
         $("#nav").addClass("uk-text-center");
         $("#nav").css("margin-bottom", "-15px");
     }
+    
+    $(".navigation li a").click(function() {
+        $(this).blur();
+    });
 });
