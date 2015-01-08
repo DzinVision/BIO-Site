@@ -1,0 +1,13 @@
+body {
+    margin-bottom: 32px;
+    margin-top: 15px;
+}
+
+.uk-article-title {
+    color: #D32F2F;
+    font-size: 30px;
+}
+
+.uk-article-divider {
+    border-color: #F44336;
+}
