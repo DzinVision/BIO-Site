@@ -1,149 +1,189 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Podskupina</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="../css/uikit.min.css">
-        <link rel="stylesheet" href="../css/components/sticky.min.css">
-        <link rel="stylesheet" href="../css/addon.css">
-        <script src="../js/jquery.min.js"></script>
-        <script src="../js/uikit.min.js"></script>
-        <script src="../js/components/sticky.min.js"></script>
-        <script src="../js/addon.js"></script>
-    </head>
-    <body>
-        <div class="uk-container uk-container-center">
-            <ul class="uk-breadcrumb uk-text-center" data-uk-scrollspy="{cls:'uk-animation-fade'}">
-                <li><a href="#">Domov</a></li>
-                <li><a href="#">Kraljestva</a></li>
-                <li><a href="#">Skupine</a></li>
-                <li class="uk-active">Podskupine</li>
-            </ul>
+<head>
+    <!-- Naslov Strani -->
+    <title>Podskupina</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="../css/uikit.min.css">
+    <link rel="stylesheet" href="../css/components/sticky.min.css">
+    <link rel="stylesheet" href="../css/addon.css">
+    
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/components/sticky.min.js"></script>
+    <script src="../js/addon.js"></script>
+</head>
+
+<body>
+    <div class="uk-container uk-container-center">
+           
+        <!-- Začetek družinskega drevesa -->
+        <ul class="uk-breadcrumb uk-text-center">
+            <li><a href="#">Domov</a></li>
+            <li><a href="#">Kraljestva</a></li>
+            <li><a href="#">Skupine</a></li>
+            <li class="uk-active">Podskupine</li>
+        </ul>
+        <!-- Konec družinskega drevesa -->
             
-            <article class="uk-article" data-uk-scrollspy="{cls:'uk-animation-fade'}">
-                   <h1 class="uk-article-title">Podskupina</h1>
-                    <p class="uk-article-meta">Latinsko/domače poimenovanje</p>      
-                    <hr class="uk-article-divider">
-            </article>
-            
-            <div class="uk-grid" style="margin-top: 15px;" id="grid">
-                <div class="uk-width-2-10" id="nav">
-                    <div data-uk-sticky="{media: 640, top: 30}" data-uk-scrollspy="{cls:'uk-animation-fade'}">
-                        <ul class="uk-nav uk-nav-side navigation">
-                            <li><a href="#znacilnosti" data-uk-smooth-scroll="{offset: 15}">Značilnosti</a></li>
-                            <li><a href="#zanimive_vrste" data-uk-smooth-scroll="{offset: 15}">Zanimive vrste</a></li>
-                            <li><a href="#ekoloski_vidik" data-uk-smooth-scroll="{offset: 15}">Ekološki vidik</a></li>                          
-                        </ul>
-                    </div>
-                </div>
+        <!-- Začetek glave / naslova strani -->
+        <article class="uk-article">
+                <h1 class="uk-article-title">Podskupina</h1>
+                <p class="uk-article-meta">Latinsko/domače poimenovanje</p>      
+                <hr class="uk-article-divider">
+        </article>
+        <!--Konec glave / naslova strani -->
+        
                 
-                <div class="uk-width-8-10" id="content">
-                    <article class="uk-article">
-                        <div data-uk-scrollspy="{cls:'uk-animation-fade'}">
-
-                            <!-- Primer naslova -->
-                            <h1 id="znacilnosti" style="margin-top: 15px !important;">Značilnosti</h1>
-                            <!-- Konec primera naslova -->
-
-                            <p class="uk-text-justify">Vestibulum venenatis consectetur mi, ut suscipit mauris condimentum sit amet. In eu elementum metus. Morbi blandit ultrices ante, ac laoreet dolor consectetur at. Aliquam vitae dolor velit. Nulla finibus hendrerit turpis, posuere convallis orci scelerisque sit amet. Mauris ut lacus id mauris volutpat dignissim tempor at est. Aliquam molestie rutrum tortor in pretium. Nunc interdum dolor ex, ut pulvinar neque aliquet sed. Etiam id neque ac elit fringilla mollis ac eu erat. Etiam imperdiet fringilla ullamcorper. In porttitor nisl sit amet odio elementum posuere. Nam eleifend nibh lacus, ut hendrerit neque aliquam vitae.</p>
-
-                            <!-- Primer podnaslova -->
-                            <h2>Primer podnaslova</h2>
-                            <!-- Konec primera podnaslova -->
-
-                            <p class="uk-text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis suscipit lacinia. Proin quis orci ac ipsum vestibulum mattis. Donec nunc odio, mattis quis ipsum ut, iaculis gravida velit. Aliquam eget pulvinar risus. Donec nisi tortor, ullamcorper vel pellentesque id, malesuada et lorem. Nulla placerat nec eros nec fringilla. Suspendisse et nisl leo. In egestas, odio et ornare consectetur, magna leo vehicula dolor, non vestibulum nisi est id purus. Aenean pretium eget tellus sit amet mattis. Mauris et congue erat. Maecenas pharetra quis leo ac dapibus. Phasellus blandit velit tortor, a mattis purus sodales at.</p>
-                        </div>
-                        
-                        <!-- Primer podpodnaslova -->
-                            <h3>Primer podpodnaslova</h3>
-                            <!-- Konec primera podpodnaslova -->
-
-                            <p class="uk-text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis suscipit lacinia. Proin quis orci ac ipsum vestibulum mattis. Donec nunc odio, mattis quis ipsum ut, iaculis gravida velit. Aliquam eget pulvinar risus. Donec nisi tortor, ullamcorper vel pellentesque id, malesuada et lorem. Nulla placerat nec eros nec fringilla. Suspendisse et nisl leo. In egestas, odio et ornare consectetur, magna leo vehicula dolor, non vestibulum nisi est id purus. Aenean pretium eget tellus sit amet mattis. Mauris et congue erat. Maecenas pharetra quis leo ac dapibus. Phasellus blandit velit tortor, a mattis purus sodales at.</p>
-
-
-                        
-                        
-                        <div data-uk-scrollspy="{cls:'uk-animation-fade'}">
-                            <h1 id="zanimive_vrste">Zanimive vrste</h1>
-                            <p class="uk-text-justify">Proin sed arcu dapibus, elementum est eget, vestibulum augue. Etiam dapibus lorem quis mauris sollicitudin blandit. Nullam ac enim laoreet, ullamcorper ipsum et, volutpat dui. Curabitur lacus felis, varius id rhoncus eget, accumsan at leo. Pellentesque suscipit mauris vitae mi sodales, a vulputate orci egestas. Nam pulvinar consectetur leo. Donec ut consequat velit, ac tincidunt tellus. Morbi sit amet pretium elit. Nam sollicitudin ornare dui, non tristique dui porttitor id. Nullam non orci cursus velit ultrices eleifend in vel libero.</p>
-
-                            <!-- Primer slike -->
-                            <div class="uk-overlay">
-                                <img src="../img/sample_image.jpg">
-                                <div class="uk-overlay-caption">OPIS SLIKE</div>
-                            </div>
-                            <!--Konec primera slike -->
-
-                        </div>
-                        
-                        
-                        <div data-uk-scrollspy="{cls:'uk-animation-fade'}">
-                            <h1 id="ekoloski_vidik">Ekološki vidik</h1>
-                            <p class="uk-text-justify">Vestibulum venenatis consectetur mi, ut suscipit mauris condimentum sit amet. In eu elementum metus. Morbi blandit ultrices ante, ac laoreet dolor consectetur at. Aliquam vitae dolor velit. Nulla finibus hendrerit turpis, posuere convallis orci scelerisque sit amet. Mauris ut lacus id mauris volutpat dignissim tempor at est. Aliquam molestie rutrum tortor in pretium. Nunc interdum dolor ex, ut pulvinar neque aliquet sed. Etiam id neque ac elit fringilla mollis ac eu erat. Etiam imperdiet fringilla ullamcorper. In porttitor nisl sit amet odio elementum posuere. Nam eleifend nibh lacus, ut hendrerit neque aliquam vitae.</p>
-
-                            <!-- Primer tabele -->
-                            <table class="uk-table">
-                                <!-- Opis/naslov tabele -->
-                                <caption class="table-title">Opis/naslov tabele</caption>
-                                <!-- Naslovi stolpcev -->
-                                <thead>
-                                    <tr>
-                                        <th>Naslov 1. stolpca</th>
-                                        <th>Naslov 2. stolpca</th>
-                                        <th>Naslov 3. stolpca</th>
-                                    </tr>
-                                </thead>
-                                
-                                <!-- Ostale celice -->
-                                <tbody>
-                                    <!-- vrstica -->
-                                    <tr>
-                                        <!-- Naslov vrstice -->
-                                        <td class="side-head">Naslov 1. vrstice</td>
-                                        <!-- Ostale celice v vrstici -->
-                                        <td>1. vrstica, 2. stolpec</td>
-                                        <td>1. vrstica, 3. stolpec</td>
-                                    </tr>
-                                    <!-- vrstica -->
-                                    <tr>
-                                        <!-- Naslov vrstice -->
-                                        <td class="side-head">Naslov 2. vrstice</td>
-                                        <!-- Ostale celice v vrstici -->
-                                        <td>2. vrstica, 2. stolpec</td>
-                                        <td>2. vrstica, 3. stolpec</td>
-                                    </tr>
-                                    <!-- vrstica -->
-                                    <tr>
-                                        <!-- Naslov vrstice -->
-                                        <td class="side-head">Naslov 3. vrstice</td>
-                                        <!-- Ostale celice v vrstici -->
-                                        <td>3. vrstica, 2. stolpec</td>
-                                        <td>3. vrstica, 3. stolpec</td>
-                                    </tr>
-                                    <!-- vrstica -->
-                                    <tr>
-                                        <!-- Naslov vrstice -->
-                                        <td class="side-head">Naslov 4. vrstice</td>
-                                        <!-- Ostale celice v vrstici -->
-                                        <td>4. vrstica, 2. stolpec</td>
-                                        <td>4. vrstica, 3. stolpec</td>
-                                    </tr>
-                                    <!-- vrstica -->
-                                    <tr>
-                                        <!-- Naslov vrstice -->
-                                        <td class="side-head">Naslov 5. vrstice</td>
-                                        <!-- Ostale celice v vrstici -->
-                                        <td>5. vrstica, 2. stolpec</td>
-                                        <td>5. vrstica, 3. stolpec</td>
-                                    </tr>
-                                </tbody>                            
-                            </table>
-                            <!-- Konec primera tabele -->
-                        </div>
-                    </article>
+        <div class="uk-grid" style="margin-top: 15px;" id="grid">    
+            <div class="uk-width-2-10" id="nav">
+                <div data-uk-sticky="{media: 640, top: 30}">
+                   
+                    <!-- Začetek navigacijske vrstice -->
+                    <ul class="uk-nav uk-nav-side navigation">
+                        <li class="uk-nav-header"><a href="#znacilnosti" data-uk-smooth-scroll="{offset: 15}">Značilnosti</a></li>
+                        <li><a href="#podnaslov" data-uk-smooth-scroll="{offset: 15}">Primer podnaslova</a></li>
+                        <li><a href="#" data-uk-smooth-scroll="{offset: 15}">Podnaslov 1</a></li>
+                        <li><a href="#" data-uk-smooth-scroll="{offset: 15}">Podnaslov 2</a></li>
+                        <li><a href="#" data-uk-smooth-scroll="{offset: 15}">Podnaslov 3</a></li>
+                        <li class="uk-nav-header"><a href="#zanimive_vrste" data-uk-smooth-scroll="{offset: 15}">Zanimive vrste</a></li>
+                        <li><a href="#slika" data-uk-smooth-scroll="{offset: 15}">Slika</a></li>
+                        <li class="uk-nav-header"><a href="#ekoloski_vidik" data-uk-smooth-scroll="{offset: 15}">Ekološki vidik</a></li>  
+                        <li><a href="#tabela" data-uk-smooth-scroll="{offset: 15}">Tabela</a></li>                        
+                    </ul>
+                    <!-- Konec navigacijske vrstice -->  
+                    
                 </div>
             </div>
+                   
+                   
+            <div class="uk-width-8-10" id="content">
+                <article class="uk-article">
+
+                    <!-- Začetek primera naslova -->
+                    <h1 id="znacilnosti" style="margin-top: 15px !important;">Značilnosti</h1>
+                    <!-- Konec primera naslova -->
+
+                    <!--Začetek primera odstavka -->
+                    <p class="uk-text-justify">
+                        Vestibulum venenatis consectetur mi, ut suscipit mauris condimentum sit amet. In eu elementum metus. Morbi blandit                             ultrices ante, ac laoreet dolor consectetur at. Aliquam vitae dolor velit. Nulla finibus hendrerit turpis, posuere                             convallis orci scelerisque sit amet. Mauris ut lacus id mauris volutpat dignissim tempor at est. Aliquam molestie                             rutrum tortor in pretium. Nunc interdum dolor ex, ut pulvinar neque aliquet sed. Etiam id neque ac elit fringilla                             mollis ac eu erat. Etiam imperdiet fringilla ullamcorper. In porttitor nisl sit amet odio elementum posuere. Nam                               eleifend nibh lacus, ut hendrerit neque aliquam vitae.
+                    </p>
+                    <!-- Konec primera odstavka -->
+
+                   
+                    <!-- Začetek primera podnaslova -->
+                    <h2 id="podnaslov">Primer Podnaslova</h2>
+                    <!-- Konec primera podnaslova -->
+        
+                    <p class="uk-text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis suscipit lacinia. Proin quis orci ac ipsum                             vestibulum mattis. Donec nunc odio, mattis quis ipsum ut, iaculis gravida velit. Aliquam eget pulvinar risus. Donec                           nisi tortor, ullamcorper vel pellentesque id, malesuada et lorem. Nulla placerat nec eros nec fringilla. Suspendisse                           et nisl leo. In egestas, odio et ornare consectetur, magna leo vehicula dolor, non vestibulum nisi est id purus.                               Aenean pretium eget tellus sit amet mattis. Mauris et congue erat. Maecenas pharetra quis leo ac dapibus. Phasellus                           blandit velit tortor, a mattis purus sodales at.
+                    </p>
+                        
+                        
+                    <!-- Začetek primera podpodnaslova -->
+                    <h3>Primer Podpodnaslova</h3>
+                    <!-- Konec primera podpodnaslova -->
+
+                    <p class="uk-text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis suscipit lacinia. Proin quis orci ac ipsum                             vestibulum mattis. Donec nunc odio, mattis quis ipsum ut, iaculis gravida velit. Aliquam eget pulvinar risus. Donec                           nisi tortor, ullamcorper vel pellentesque id, malesuada et lorem. Nulla placerat nec eros nec fringilla. Suspendisse                           et nisl leo. In egestas, odio et ornare consectetur, magna leo vehicula dolor, non vestibulum nisi est id purus.                               Aenean pretium eget tellus sit amet mattis. Mauris et congue erat. Maecenas pharetra quis leo ac dapibus. Phasellus                           blandit velit tortor, a mattis purus sodales at.
+                    </p>
+
+
+                    <h1 id="zanimive_vrste">Zanimive Vrste</h1>
+                    <p class="uk-text-justify">
+                        Proin sed arcu dapibus, elementum est eget, vestibulum augue. Etiam dapibus lorem quis mauris sollicitudin blandit.                           Nullam ac enim laoreet, ullamcorper ipsum et, volutpat dui. Curabitur lacus felis, varius id rhoncus eget, accumsan at                         leo. Pellentesque suscipit mauris vitae mi sodales, a vulputate orci egestas. Nam pulvinar consectetur leo. Donec ut                           consequat velit, ac tincidunt tellus. Morbi sit amet pretium elit. Nam sollicitudin ornare dui, non tristique dui                             porttitor id. Nullam non orci cursus velit ultrices eleifend in vel libero.
+                    </p>
+
+                    <!-- Začetek primera slike -->
+                    <div class="uk-overlay" id="slika">
+                        <!-- Pot do slike -->
+                        <img src="../img/sample_image.jpg">
+                        
+                        <!-- Opis slike -->
+                        <div class="uk-overlay-caption">OPIS SLIKE</div>
+                    </div>
+                    <!--Konec primera slike -->                        
+
+
+                    <h1 id="ekoloski_vidik">Ekološki Vidik</h1>
+                    <p class="uk-text-justify">
+                        Vestibulum venenatis consectetur mi, ut suscipit mauris condimentum sit amet. In eu elementum metus. Morbi blandit                             ultrices ante, ac laoreet dolor consectetur at. Aliquam vitae dolor velit. Nulla finibus hendrerit turpis, posuere                             convallis orci scelerisque sit amet. Mauris ut lacus id mauris volutpat dignissim tempor at est. Aliquam molestie                             rutrum tortor in pretium. Nunc interdum dolor ex, ut pulvinar neque aliquet sed. Etiam id neque ac elit fringilla                             mollis ac eu erat. Etiam imperdiet fringilla ullamcorper. In porttitor nisl sit amet odio elementum posuere. Nam                               eleifend nibh lacus, ut hendrerit neque aliquam vitae.
+                    </p>
+
+                    <!-- Začetek primera tabele -->
+                    <table class="uk-table" id="tabela">
+                        <!-- Opis/naslov tabele -->
+                        <caption class="table-title">Opis / Naslov tabele</caption>
+
+                        <!-- Naslovi stolpcev -->
+                        <thead>
+                            <tr>
+                                <th>Naslov 1. stolpca</th>
+                                <th>Naslov 2. stolpca</th>
+                                <th>Naslov 3. stolpca</th>
+                            </tr>
+                        </thead>
+                                
+                        <!-- Ostale celice -->
+                        <tbody>
+                            <!-- Vrstica v tabeli -->
+                            <tr>
+                                <!-- Naslov vrstice -->
+                                <td class="side-head">Naslov 1. vrstice</td>
+                                
+                                <!-- Ostale celice v vrstici -->
+                                <td>1. vrstica, 2. stolpec</td>
+                                <td>1. vrstica, 3. stolpec</td>
+                            </tr>
+                            
+                            <!-- Vrstica v tabeli -->
+                            <tr>
+                                <!-- Naslov vrstice -->
+                                <td class="side-head">Naslov 2. vrstice</td>
+
+                                <!-- Ostale celice v vrstici -->
+                                <td>2. vrstica, 2. stolpec</td>
+                                <td>2. vrstica, 3. stolpec</td>
+                            </tr>
+
+                            <!-- Vrstica v tabeli -->
+                            <tr>
+                                <!-- Naslov vrstice -->
+                                <td class="side-head">Naslov 3. vrstice</td>
+
+                                <!-- Ostale celice v vrstici -->
+                                <td>3. vrstica, 2. stolpec</td>
+                                <td>3. vrstica, 3. stolpec</td>
+                            </tr>
+
+                            <!-- Vrstica v tabeli -->
+                            <tr>
+                                <!-- Naslov vrstice -->
+                                <td class="side-head">Naslov 4. vrstice</td>
+
+                                <!-- Ostale celice v vrstici -->
+                                <td>4. vrstica, 2. stolpec</td>
+                                <td>4. vrstica, 3. stolpec</td>
+                            </tr>
+
+                            <!-- Vrstica v tabeli -->
+                            <tr>
+                                <!-- Naslov vrstice -->
+                                <td class="side-head">Naslov 5. vrstice</td>
+
+                                <!-- Ostale celice v vrstici -->
+                                <td>5. vrstica, 2. stolpec</td>
+                                <td>5. vrstica, 3. stolpec</td>
+                            </tr>
+                        </tbody>                            
+                    </table>
+                    <!-- Konec primera tabele -->
+                </article>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
