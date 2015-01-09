@@ -6,6 +6,8 @@ $(document).ready(function() {
         $("#content").addClass("uk-width-1-1");
         $("#nav").addClass("uk-text-center");
         $("#nav").css("margin-bottom", "-15px");
+        $(".uk-overlay-caption").addClass("overlay-caption");
+        $(".overlay-caption").removeClass("uk-overlay-caption");
     }
     
     $(".navigation li a").click(function() {
